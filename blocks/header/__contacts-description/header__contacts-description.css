@@ -1,0 +1,6 @@
+.header__contacts-description {
+  display: flex;
+  flex-direction: column;
+  margin-right: 57px;
+  gap: 10px;
+}

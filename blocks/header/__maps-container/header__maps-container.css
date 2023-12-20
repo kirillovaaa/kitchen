@@ -1,0 +1,4 @@
+.header__maps-container {
+  display: flex;
+  flex-direction: column;
+}

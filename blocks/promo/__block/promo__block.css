@@ -1,0 +1,7 @@
+.promo__block {
+  border-radius: 15px;
+  background: rgba(0, 43, 69, 0.9);
+  padding: 20px 33px;
+  width: 224px;
+  position: relative;
+}

@@ -1,0 +1,7 @@
+.promo__price {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  gap: 15px;
+  position: relative;
+}

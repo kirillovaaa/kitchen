@@ -1,0 +1,7 @@
+.promo__description-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 31px;
+  margin-top: 44px;
+}

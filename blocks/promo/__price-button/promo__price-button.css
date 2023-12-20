@@ -1,0 +1,14 @@
+.promo__price-button {
+  padding: 19px 27px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: transparent;
+  border: 0.836px solid #fff;
+  color: #fff;
+  width: 203px;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+}

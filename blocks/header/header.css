@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  height: 125px;
+  background: rgba(0, 43, 69, 0.9);
+  padding: 0 148px 0 152px;
+  align-items: center;
+}

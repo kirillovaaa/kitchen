@@ -1,0 +1,36 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo-container/header__logo-container.css);
+@import url(../blocks/header/__logo-image/header__logo-image.css);
+@import url(../blocks/header/__maps/header__maps.css);
+@import url(../blocks/header/__maps-container/header__maps-container.css);
+@import url(../blocks/header/__maps-image/header__maps-image.css);
+@import url(../blocks/header/__maps-title/header__maps-title.css);
+@import url(../blocks/header/__maps-subtitle/header__maps-subtitle.css);
+@import url(../blocks/header/__group/header__group.css);
+@import url(../blocks/header/__group-text/header__group-text.css);
+@import url(../blocks/header/__contacts-description/header__contacts-description.css);
+@import url(../blocks/header/__description-title/header__description-title.css);
+@import url(../blocks/header/__description-subtitle/header__description-subtitle.css);
+@import url(../blocks/header/__contacts/header__contacts.css);
+@import url(../blocks/header/__contacts-group/header__contacts-group.css);
+@import url(../blocks/header/__contacts-number/header__contacts-number.css);
+@import url(../blocks/header/__contacts-button/header__contacts-button.css);
+
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__block/promo__block.css);
+@import url(../blocks/promo/__block/_1/promo__block_1.css);
+@import url(../blocks/promo/__block/_2/promo__block_2.css);
+@import url(../blocks/promo/__block/_3/promo__block_3.css);
+@import url(../blocks/promo/__block-text/pormo__block-text.css);
+@import url(../blocks/promo/__block-image/promo__block-image.css);
+@import url(../blocks/promo/__description/promo__description.css);
+@import url(../blocks/promo/__description-title/promo__description-title.css);
+@import url(../blocks/promo/__description-container/promo__description-container.css);
+@import url(../blocks/promo/__description-text/promo__description-text.css);
+@import url(../blocks/promo/__price/promo__price.css);
+@import url(../blocks/promo/__price-button/promo__price-button.css);
+@import url(../blocks/promo/__price-image/promo__price-image.css);

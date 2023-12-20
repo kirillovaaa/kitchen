@@ -1,0 +1,11 @@
+.header__contacts-button {
+  padding: 15px 27px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: transparent;
+  border: 0.836px solid #fff;
+  color: #fff;
+}

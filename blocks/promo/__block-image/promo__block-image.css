@@ -1,0 +1,5 @@
+.promo__block-image {
+  position: absolute;
+  right: -14px;
+  top: calc(50% - 16.5px);
+}

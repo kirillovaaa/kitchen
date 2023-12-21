@@ -1,0 +1,8 @@
+.portfolio {
+  height: 405px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  color: #002b45;
+  margin-top: 160px;
+}

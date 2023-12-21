@@ -1,6 +1,8 @@
 .description__plus {
   display: flex;
   flex-direction: column;
-  gap: 53px;
-  margin-bottom: 31px;
+  gap: 56px;
+  flex: 1;
+  max-width: 1604px;
+  padding-left: 357px;
 }

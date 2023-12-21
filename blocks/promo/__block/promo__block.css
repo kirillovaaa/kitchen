@@ -4,4 +4,17 @@
   padding: 20px 33px;
   width: 224px;
   position: relative;
+  display: none;
+}
+
+@media all and (min-width: 1260px) {
+  .promo__block_1 {
+    display: flex;
+  }
+  .promo__block_2 {
+    display: flex;
+  }
+  .promo__block_3 {
+    display: flex;
+  }
 }

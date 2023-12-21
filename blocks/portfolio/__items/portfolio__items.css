@@ -1,0 +1,13 @@
+.portfolio__items {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 587px));
+  margin-top: 45px;
+  padding-left: 157px;
+  padding-right: 157px;
+  row-gap: 48px;
+  column-gap: 246px;
+  transform: translateX(97px);
+  width: 100%;
+}

@@ -1,0 +1,6 @@
+.portfolio__item-price {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-top: 48px;
+}

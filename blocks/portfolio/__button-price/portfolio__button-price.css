@@ -1,0 +1,10 @@
+.portfolio__button-price {
+  padding: 18px 29px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid #002b45;
+}

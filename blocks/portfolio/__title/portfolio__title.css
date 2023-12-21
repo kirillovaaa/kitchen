@@ -1,0 +1,20 @@
+.portfolio__title {
+  margin: 0;
+  font-family: Lora, serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  padding-left: 150px;
+  position: relative;
+  display: inline-block;
+}
+
+.portfolio__title::before {
+  content: " ";
+  background: #002b45;
+  width: 130px;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  margin-top: 21px;
+}

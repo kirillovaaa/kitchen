@@ -1,0 +1,6 @@
+.portfolio__buttons-details {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 48px;
+}

@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия кухни Марко</title>
     <style>
-      .font {
-        font-weight: 700;
+      .text {
+        color: #7c7c7c;
         font-family: Open Sans, sans-serif;
-        font-size: 28px;
-      }
-      .font-plus {
-        font-family: Open Sans, sans-serif;
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 700;
       }
     </style>
+    <style></style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,6 +21,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./scripts/animate.css" />
   </head>
 
   <body>
@@ -80,21 +78,30 @@
     <main>
       <!-- promo block -->
       <section class="promo">
-        <div class="promo__block promo__block_1">
+        <div
+          class="promo__block promo__block_1 wow zoomInUp"
+          data-wow-delay="0.1s"
+        >
           <span class="promo__block-text"
             >Огромный выбор <br />
             бытовой техники</span
           >
           <img class="promo__block-image" src="images/mark.svg" alt="" />
         </div>
-        <div class="promo__block promo__block_2">
+        <div
+          class="promo__block promo__block_2 wow zoomInUp"
+          data-wow-delay="0.2s"
+        >
           <span class="promo__block-text"
             >Изысканный гарнитур <br />
             любого размера</span
           >
           <img class="promo__block-image" src="images/mark.svg" alt="" />
         </div>
-        <div class="promo__block promo__block_3">
+        <div
+          class="promo__block promo__block_3 wow zoomInUp"
+          data-wow-delay="0.3s"
+        >
           <span class="promo__block-text"
             >Выдающиеся <br />
             сорта древесины</span
@@ -102,9 +109,9 @@
           <img class="promo__block-image" src="images/mark.svg" alt="" />
         </div>
         <div class="promo__description">
-          <span class="promo__description-title"
-            >Изготовим роскошную <br />дизайнерскую кухню
-          </span>
+          <h1 class="promo__description-title">
+            Изготовим роскошную <br />дизайнерскую кухню
+          </h1>
           <div class="promo__description-container">
             <img
               class="header__description-image"
@@ -113,7 +120,7 @@
             />
             <div class="promo__text-container">
               <p class="promo__description-text">
-                Цена на 12-24% ниже, <br />чем у посредников
+                <b>Цена на 12-24% ниже,</b> <br />чем у посредников
               </p>
             </div>
           </div>
@@ -139,7 +146,7 @@
           alt="Кухня"
         />
         <div class="description__plus">
-          <span class="description__plus-title">Наши преимущества</span>
+          <h2 class="description__plus-title">Наши преимущества</h2>
           <div class="description__plus-items">
             <div class="description__plus-item">
               <img
@@ -148,9 +155,9 @@
                 alt="Иконка-кухня"
               />
               <div class="description__plus-container">
-                <span class="font-plus">C 2000 г на рынке</span>
-                <span class="description__plus-text"
-                  >наши кухни выбрали <br />10 000+ семей
+                <span class="description__plus-text">
+                  <b>C 2000 г на рынке </b><br />наши кухни выбрали <br />10
+                  000+ семей
                 </span>
               </div>
             </div>
@@ -161,10 +168,8 @@
                 alt="Иконка-время"
               />
               <div class="description__plus-container">
-                <span class="font-plus">Сжатые сроки</span>
-
-                <span class="description__plus-text"
-                  >изготовление кухни<br />до 20 дней
+                <span class="description__plus-text">
+                  <b>Сжатые сроки </b><br />изготовление кухни<br />до 20 дней
                 </span>
               </div>
             </div>
@@ -175,10 +180,9 @@
                 alt="Иконка-дизайн"
               />
               <div class="description__plus-container">
-                <span class="font-plus">Дизайн проект </span>
-
                 <span class="description__plus-text"
-                  >бесплатно за 30 минут
+                  ><b>Дизайн проект</b> <br />
+                  бесплатно за 30 минут
                 </span>
               </div>
             </div>
@@ -187,7 +191,306 @@
       </section>
 
       <!-- portfolio block -->
-      <!-- <section class="portfolio"></section> -->
+      <section class="portfolio">
+        <h2 class="portfolio__title">Посмотрите наши работы</h2>
+        <div class="portfolio__buttons">
+          <div class="portfolio__buttons-option">
+            <button class="portfolio__button">
+              Планировка
+              <img
+                class="portfolio__button-image"
+                src="images/pointer.svg"
+                alt="Стрелка"
+              />
+            </button>
+            <button class="portfolio__button">
+              Стиль кухни
+              <img
+                class="portfolio__button-image"
+                src="images/pointer.svg"
+                alt="Стрелка"
+              />
+            </button>
+            <button class="portfolio__button">
+              Цвет
+              <img
+                class="portfolio__button-image"
+                src="images/pointer.svg"
+                alt="Стрелка"
+              />
+            </button>
+          </div>
+          <div class="portfolio__buttons-apply">
+            <button class="portfolio__button">Применить</button>
+            <button class="portfolio__button">Сбросить</button>
+          </div>
+        </div>
+
+        <div class="portfolio__items">
+          <div class="portfolio__item">
+            <img
+              class="portfolio__item-image"
+              src="images/portfolio.png"
+              alt="Кухня"
+            />
+            <div class="portfolio__choice">
+              <div class="portfolio__choice-container">
+                <img
+                  class="portfolio__choice-image"
+                  src="images/01 10.svg"
+                  alt="Оценка"
+                />
+                <span class="portfolio__choice-pointer">← →</span>
+              </div>
+              <div class="portfolio__choice-group">
+                <img
+                  class="portfolio__choice-kitchen"
+                  src="images/mini-kitchen.png"
+                  alt="Кухня"
+                />
+                <img
+                  class="portfolio__choice-kitchen"
+                  src="images/mini-kitchen.png"
+                  alt="Кухня"
+                />
+                <img
+                  class="portfolio__choice-kitchen"
+                  src="images/mini-kitchen.png"
+                  alt="Кухня"
+                />
+              </div>
+            </div>
+            <div class="portfolio__item-container">
+              <h3 class="portfolio__item-title">Кухня 097 минимализм</h3>
+              <span class="portfolio__item-subtitle"
+                >Угловая белая кухня со столешницей под бетон.</span
+              >
+              <div class="portfolio__item-price">
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Эконом</span>
+                  <span class="portfolio__price-subtitle">168 000 р.</span>
+                </div>
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Стандарт</span>
+                  <span class="portfolio__price-subtitle">217 000 р.</span>
+                </div>
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Премиум</span>
+                  <span class="portfolio__price-subtitle">270 000 р.</span>
+                </div>
+              </div>
+              <span class="portfolio__height">
+                <span class="text">Длины кухни:</span>
+                4900 мм
+              </span>
+              <div class="portfolio__buttons-details">
+                <button class="portfolio__button-option">Подробнее</button>
+                <button class="portfolio__button-price">
+                  Расчет стоимости
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <img
+              class="portfolio__item-image"
+              src="images/portfolio.png"
+              alt="Кухня"
+            />
+            <div class="portfolio__choice">
+              <div class="portfolio__choice-container">
+                <img
+                  class="portfolio__choice-image"
+                  src="images/01 10.svg"
+                  alt="Оценка"
+                />
+                <span class="portfolio__choice-pointer">← →</span>
+              </div>
+              <div class="portfolio__choice-group">
+                <img
+                  class="portfolio__choice-kitchen"
+                  src="images/mini-kitchen.png"
+                  alt="Кухня"
+                />
+                <img
+                  class="portfolio__choice-kitchen"
+                  src="images/mini-kitchen.png"
+                  alt="Кухня"
+                />
+                <img
+                  class="portfolio__choice-kitchen"
+                  src="images/mini-kitchen.png"
+                  alt="Кухня"
+                />
+              </div>
+            </div>
+            <div class="portfolio__item-container">
+              <h3 class="portfolio__item-title">Кухня 097 минимализм</h3>
+              <span class="portfolio__item-subtitle"
+                >Угловая белая кухня со столешницей под бетон.</span
+              >
+              <div class="portfolio__item-price">
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Эконом</span>
+                  <span class="portfolio__price-subtitle">168 000 р.</span>
+                </div>
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Стандарт</span>
+                  <span class="portfolio__price-subtitle">217 000 р.</span>
+                </div>
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Премиум</span>
+                  <span class="portfolio__price-subtitle">270 000 р.</span>
+                </div>
+              </div>
+              <span class="portfolio__height">
+                <span class="text">Длины кухни:</span>
+                4900 мм
+              </span>
+              <div class="portfolio__buttons-details">
+                <button class="portfolio__button-option">Подробнее</button>
+                <button class="portfolio__button-price">
+                  Расчет стоимости
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <img
+              class="portfolio__item-image"
+              src="images/portfolio.png"
+              alt="Кухня"
+            />
+            <div class="portfolio__choice">
+              <div class="portfolio__choice-container">
+                <img
+                  class="portfolio__choice-image"
+                  src="images/01 10.svg"
+                  alt="Оценка"
+                />
+                <span class="portfolio__choice-pointer">← →</span>
+              </div>
+              <div class="portfolio__choice-group">
+                <img
+                  class="portfolio__choice-kitchen"
+                  src="images/mini-kitchen.png"
+                  alt="Кухня"
+                />
+                <img
+                  class="portfolio__choice-kitchen"
+                  src="images/mini-kitchen.png"
+                  alt="Кухня"
+                />
+                <img
+                  class="portfolio__choice-kitchen"
+                  src="images/mini-kitchen.png"
+                  alt="Кухня"
+                />
+              </div>
+            </div>
+            <div class="portfolio__item-container">
+              <h3 class="portfolio__item-title">Кухня 097 минимализм</h3>
+              <span class="portfolio__item-subtitle"
+                >Угловая белая кухня со столешницей под бетон.</span
+              >
+              <div class="portfolio__item-price">
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Эконом</span>
+                  <span class="portfolio__price-subtitle">168 000 р.</span>
+                </div>
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Стандарт</span>
+                  <span class="portfolio__price-subtitle">217 000 р.</span>
+                </div>
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Премиум</span>
+                  <span class="portfolio__price-subtitle">270 000 р.</span>
+                </div>
+              </div>
+              <span class="portfolio__height">
+                <span class="text">Длины кухни:</span>
+                4900 мм
+              </span>
+              <div class="portfolio__buttons-details">
+                <button class="portfolio__button-option">Подробнее</button>
+                <button class="portfolio__button-price">
+                  Расчет стоимости
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <div class="portfolio__image-container">
+              <img
+                class="portfolio__item-image"
+                src="images/portfolio.png"
+                alt="Кухня"
+              />
+              <div class="portfolio__choice">
+                <div class="portfolio__choice-container">
+                  <img
+                    class="portfolio__choice-image"
+                    src="images/01 10.svg"
+                    alt="Оценка"
+                  />
+                  <span class="portfolio__choice-pointer">← →</span>
+                </div>
+                <div class="portfolio__choice-group">
+                  <img
+                    class="portfolio__choice-kitchen"
+                    src="images/mini-kitchen.png"
+                    alt="Кухня"
+                  />
+                  <img
+                    class="portfolio__choice-kitchen"
+                    src="images/mini-kitchen.png"
+                    alt="Кухня"
+                  />
+                  <img
+                    class="portfolio__choice-kitchen"
+                    src="images/mini-kitchen.png"
+                    alt="Кухня"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item-container">
+              <h3 class="portfolio__item-title">Кухня 097 минимализм</h3>
+              <span class="portfolio__item-subtitle"
+                >Угловая белая кухня со столешницей под бетон.</span
+              >
+              <div class="portfolio__item-price">
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Эконом</span>
+                  <span class="portfolio__price-subtitle">168 000 р.</span>
+                </div>
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Стандарт</span>
+                  <span class="portfolio__price-subtitle">217 000 р.</span>
+                </div>
+                <div class="portfolio__price-container">
+                  <span class="portfolio__price-title">Премиум</span>
+                  <span class="portfolio__price-subtitle">270 000 р.</span>
+                </div>
+              </div>
+              <span class="portfolio__height">
+                <span class="text">Длины кухни:</span>
+                4900 мм
+              </span>
+              <div class="portfolio__buttons-details">
+                <button class="portfolio__button-option">Подробнее</button>
+                <button class="portfolio__button-price">
+                  Расчет стоимости
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <script src="./scripts/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

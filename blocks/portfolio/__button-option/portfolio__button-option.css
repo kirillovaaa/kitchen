@@ -1,0 +1,12 @@
+.portfolio__button-option {
+  padding: 18px 32px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  background: #002b45;
+  color: #fbf6ef;
+}

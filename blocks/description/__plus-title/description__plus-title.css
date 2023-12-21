@@ -3,4 +3,15 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 43.2px;
+  margin: 0;
+  position: relative;
+}
+.description__plus-title::before {
+  content: " ";
+  background: #333333;
+  width: calc(100% - 400px + 157px);
+  height: 2px;
+  left: 400px;
+  position: absolute;
+  margin-top: 23px;
 }

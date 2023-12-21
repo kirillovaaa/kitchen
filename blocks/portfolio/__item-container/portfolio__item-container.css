@@ -1,0 +1,7 @@
+.portfolio__item-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 138px;
+  padding-right: 43px;
+  padding-top: 36px;
+}

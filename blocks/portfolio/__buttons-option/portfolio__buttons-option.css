@@ -1,0 +1,5 @@
+.portfolio__buttons-option {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}

@@ -1,4 +1,11 @@
 .header__contacts-number {
   font-size: 20px;
   font-weight: 700;
+  display: none;
+}
+
+@media all and (min-width: 900px) {
+  .header__contacts-number {
+    display: flex;
+  }
 }

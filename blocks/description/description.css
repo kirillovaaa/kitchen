@@ -1,9 +1,21 @@
 .description {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 405px;
+  justify-items: center;
+  padding-left: 157px;
+  padding-right: 157px;
+  padding-top: 101px;
+  padding-bottom: 105px;
   background-color: #fbf6ef;
   color: #002b45;
   gap: 94px;
+  justify-content: center;
 }
+
+/* @media all and (min-width: 790px) {
+  .description {
+    flex-direction: column;
+  }
+} */

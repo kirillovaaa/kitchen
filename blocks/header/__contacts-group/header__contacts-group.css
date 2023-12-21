@@ -1,5 +1,11 @@
 .header__contacts-group {
-  display: flex;
+  display: none;
   flex-direction: row;
   gap: 16px;
+}
+
+@media all and (min-width: 1014px) {
+  .header__contacts-group {
+    display: flex;
+  }
 }

@@ -3,3 +3,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media all and (max-width: 1238px) {
+  .promo__description {
+    margin-top: 190px;
+  }
+}

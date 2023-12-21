@@ -1,7 +1,8 @@
 .description__plus-items {
   display: flex;
   flex-direction: row;
-  gap: 100px;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 98px;
+  align-items: start;
   font-family: Open Sans, sans-serif;
 }

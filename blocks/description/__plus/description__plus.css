@@ -1,0 +1,6 @@
+.description__plus {
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+  margin-bottom: 31px;
+}

@@ -1,0 +1,5 @@
+.description__plus-item {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}

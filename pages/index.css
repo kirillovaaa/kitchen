@@ -34,3 +34,13 @@
 @import url(../blocks/promo/__price/promo__price.css);
 @import url(../blocks/promo/__price-button/promo__price-button.css);
 @import url(../blocks/promo/__price-image/promo__price-image.css);
+
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__image/description__image.css);
+@import url(../blocks/description/__plus/description__plus.css);
+@import url(../blocks/description/__plus-container/description__plus-container.css);
+@import url(../blocks/description/__plus-title/description__plus-title.css);
+@import url(../blocks/description/__plus-text/description__plus-text.css);
+@import url(../blocks/description/__plus-items/description__plus-items.css);
+@import url(../blocks/description/__plus-item/description__plus-item.css);
+@import url(../blocks/description/__plus-image/description__plus-image.css);

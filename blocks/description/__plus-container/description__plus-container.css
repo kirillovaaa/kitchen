@@ -1,0 +1,4 @@
+.description__plus-container {
+  display: flex;
+  flex-direction: column;
+}
